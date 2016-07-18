@@ -1,0 +1,98 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  min-width: 750px; }
+
+header {
+  height: 450px;
+  overflow: hidden; }
+  header h1 {
+    margin-left: 30px; }
+  header div {
+    width: 100%;
+    height: 100%;
+    background: url("https://images.unsplash.com/photo-1457785097656-8ac31dcf679f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e33c8175e2aed78ad7b1f7c3a9d2e65");
+    background-position: center;
+    background-size: cover; }
+
+.menu-container {
+  margin: 10px;
+  margin-left: 20px;
+  width: 60%;
+  display: inline-block; }
+  .menu-container h1 {
+    font-size: 45px;
+    margin: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 8px solid gray; }
+  .menu-container h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px; }
+
+.menu-item {
+  height: 80px; }
+  .menu-item p {
+    margin: 10px;
+    font-size: 14px; }
+    .menu-item p span {
+      float: right; }
+  .menu-item i {
+    font-size: 16px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 4px;
+    color: #aaa; }
+  .menu-item .isTrue {
+    color: #000; }
+  .menu-item .name {
+    font-size: 18px;
+    font-weight: bold; }
+  .menu-item .description {
+    width: 80%;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    display: inline-block; }
+
+.order-container, .confirm-container {
+  float: right;
+  margin: 10px;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center; }
+  .order-container h1, .confirm-container h1 {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 0; }
+  .order-container .tax, .order-container h2, .confirm-container .tax, .confirm-container h2 {
+    margin-right: 10px;
+    text-align: right; }
+  .order-container button, .confirm-container button {
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background: #ddd; }
+    .order-container button:focus, .confirm-container button:focus {
+      outline: none; }
+    .order-container button:active, .confirm-container button:active {
+      background: #aaa; }
+
+.order-item {
+  border-bottom: 1px dashed black;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  .order-item p {
+    margin: 10px; }
+    .order-item p span {
+      float: right; }
+
+.confirm-container {
+  float: none;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */
